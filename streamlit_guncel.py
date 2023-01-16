@@ -7,6 +7,10 @@ import json
 # import skimage
 # print(skimage.__version__)
 # pip install zipfile36
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 import zipfile
 import json
 from urllib.request import urlopen
